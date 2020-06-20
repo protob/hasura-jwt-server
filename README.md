@@ -72,10 +72,10 @@ You can also have a look at [this docker-compose gist](https://gist.github.com/p
 
 ```bash
 # Clone the repo
-git clone https://github.com/hasura/graphql-engine
+git clone https://github.com/protob/hasura-jwt-server.git
 
 # Change directory
-cd community/boilerplates/auth-servers/passportjs-jwt-roles
+cd hasura-jwt-server
 
 # Install NPM dependencies
 npm install
