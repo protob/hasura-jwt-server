@@ -186,8 +186,7 @@ curl -H "Content-Type: application/json" \
 
 ## Limitations
 
-- Not tested with Heroku
-- There is no user and role management except to create a single user with no specific role. I myself do this part with a frontend app that access the database through a Hasura GraphQL endpoint.
+- There is no user and role management except to create a single user with no specific role. It can be done frontend app that access the database through a Hasura GraphQL endpoint.
 - This server is designed to work with one RSA key only, and does not handle its regular rotation.
 - No handling of JWT expiration and key turnover.
 - This server is not (yet?) designed to handle authentication through other services such as Google, GitHub... It would be nice to do so, but to keep this server as a proxy that would add the Hasura claims in querying the database about the roles of the user. Comments or any contribution are welcome as well on this one.
